@@ -9,11 +9,11 @@ Show [TeslaMate](https://github.com/teslamate-org/teslamate) data to your [AWTRI
 
 Show distance from home.
 
-![Geofence](img/awtrix-teslamate-geofence.gif)
+![Distance](img/awtrix-teslamate-distance.png)
 
 In case you defined geofence, it will be shown instead.
 
-![Distance](img/awtrix-teslamate-distance.png)
+![Geofence](img/awtrix-teslamate-geofence.gif)
 
 
 ### Battery SOC
@@ -112,7 +112,7 @@ Distance calculation is taken from [Jörg Hofmann](https://meintechblog.de/).
 ### Limitations
 
 - As the MQTT broker is the service in between, everything relies on MQTT. If there is no new data pushed from other systems (in this case TeslaMate) to MQTT, the device will not show the information anymore after a few times because Node-RED will only pull new data. - This can be fixed with an "inject" node which triggers to push the app data again to MQTT for the AWTRIX device. See "batterySocCar1" for reference.
-- Yet I did not find out how to cope with changed MQTT data Node-RED misses. Please let me know if you have a solution.
+- Yet I did not find out how to cope with changed MQTT data that Node-RED misses. Please let me know if you have a solution.
 - Distance calculation does give direkt distance and not distance on the road.
 
 ## Changelog
