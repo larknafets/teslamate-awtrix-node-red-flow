@@ -22,9 +22,9 @@ See battery SOC of your car.
 
 ![Battery SOC](img/awtrix-teslamate-batterySoc.png)
 
-### Rated battery range
+### Battery range
 
-Show rated battery range.
+You can choose between rated and estimated battery range.
 
 ![Battery SOC](img/awtrix-teslamate-ratedBatteryRange.png)
 
@@ -93,6 +93,10 @@ Download all icons used by the flow to your AWTRIX device by going to the IP add
 
 Now all apps will have an icon.
 
+### Set your AWTRIX settings
+
+You can set device settings in "config" node and also deaktivate standard AWTRIX apps.
+
 ## Flow modifications and updates
 
 Feel free to change the imported flow to your own needs. You may want to add a 2nd car. You may also change the icons. Check the "Readme.1st" node for further information. - Enjoy it. :-)
@@ -116,6 +120,12 @@ Distance calculation is taken from [Jörg Hofmann](https://meintechblog.de/).
 - Distance calculation does give direkt distance and not distance on the road.
 
 ## Changelog
+
+#### 2024-12-19
+
+- Change "vars" node to "config" node
+- Add more parameters to config node
+- Move all AWTRIX settings to config node
 
 #### 2024-10-30
 
