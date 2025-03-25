@@ -124,6 +124,10 @@ Distance calculation is taken from [Jörg Hofmann](https://meintechblog.de/).
 
 ## Changelog
 
+#### 2025-03-25
+
+- Fix "awtrix settings" node
+
 #### 2024-12-19
 
 - Change "vars" node to "config" node
